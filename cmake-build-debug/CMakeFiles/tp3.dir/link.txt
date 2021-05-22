@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -g3 -O0 -Werror -g  -rdynamic CMakeFiles/tp3.dir/src/main.cpp.o CMakeFiles/tp3.dir/src/regresiones.cpp.o CMakeFiles/tp3.dir/src/auxiliares.cpp.o  -o tp3 

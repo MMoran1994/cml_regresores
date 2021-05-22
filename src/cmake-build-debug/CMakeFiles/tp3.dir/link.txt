@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=gnu++11 -ggdb3 -g -g   CMakeFiles/tp3.dir/main.cpp.o CMakeFiles/tp3.dir/regresiones.cpp.o CMakeFiles/tp3.dir/auxiliares.cpp.o CMakeFiles/tp3.dir/cml.cpp.o  -o tp3 

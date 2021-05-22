@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tp2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\pybind11\;CMake Files\pybind11\tools\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cml">
+				<Option output="/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/cml.cpython-36m-x86_64-linux-gnu.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home2/clinux01/Desktop/tp3-metnum/eigen"/>
+					<Add directory="/home2/clinux01/Desktop/tp3-metnum/pybind11/include"/>
+					<Add directory="/usr/include/python3.6m"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 cml"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cml/fast">
+				<Option output="/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/cml.cpython-36m-x86_64-linux-gnu.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home2/clinux01/Desktop/tp3-metnum/eigen"/>
+					<Add directory="/home2/clinux01/Desktop/tp3-metnum/pybind11/include"/>
+					<Add directory="/usr/include/python3.6m"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 cml/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp3">
+				<Option output="/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/tp3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home2/clinux01/Desktop/tp3-metnum/eigen"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 tp3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp3/fast">
+				<Option output="/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/tp3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home2/clinux01/Desktop/tp3-metnum/eigen"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 tp3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home2/clinux01/Desktop/tp3-metnum/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home2/clinux01/Desktop/tp3-metnum/src/auxiliares.cpp">
+			<Option target="cml"/>
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home2/clinux01/Desktop/tp3-metnum/src/auxiliares.h">
+			<Option target="cml"/>
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home2/clinux01/Desktop/tp3-metnum/src/cml.cpp">
+			<Option target="cml"/>
+		</Unit>
+		<Unit filename="/home2/clinux01/Desktop/tp3-metnum/src/cml.h">
+			<Option target="cml"/>
+		</Unit>
+		<Unit filename="/home2/clinux01/Desktop/tp3-metnum/src/main.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home2/clinux01/Desktop/tp3-metnum/src/regresiones.cpp">
+			<Option target="cml"/>
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home2/clinux01/Desktop/tp3-metnum/src/regresiones.h">
+			<Option target="cml"/>
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home2/clinux01/Desktop/tp3-metnum/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home2/clinux01/Desktop/tp3-metnum/pybind11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\pybind11\"/>
+		</Unit>
+		<Unit filename="/home2/clinux01/Desktop/tp3-metnum/pybind11/tools/FindPythonLibsNew.cmake">
+			<Option virtualFolder="CMake Files\pybind11\tools\"/>
+		</Unit>
+		<Unit filename="/home2/clinux01/Desktop/tp3-metnum/pybind11/tools/pybind11Tools.cmake">
+			<Option virtualFolder="CMake Files\pybind11\tools\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

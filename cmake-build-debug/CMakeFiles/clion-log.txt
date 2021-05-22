@@ -1,0 +1,7 @@
+/opt/clion-2018.2.6/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_SH=CMAKE_SH-NOTFOUND -G "CodeBlocks - Unix Makefiles" /home2/clinux01/Desktop/tp3-metnum
+Debug mode
+-- pybind11 v2.4.dev4
+CMAKE_INSTALL_PREFIX=/home2/clinux01/Desktop/tp3-metnum
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home2/clinux01/Desktop/tp3-metnum/cmake-build-debug
