@@ -6,7 +6,8 @@ El archivo `enunciado.pdf` contiene todo lo que fue requerido para la realizaci�
 - En `filtros` y `tools` los comandos del Shell de Linux utilizados para filtrar los archivos .csv de manera casi instantánea.
 - El módulo `eigen` contiene lo necesario para la representación y operaciones de matrices.
 - Se incluyen además el informe en `informe.pdf` pedido por el enunciado en el que se exhiben los hallazgos más relevantes dados por la experimentación y `Presentacion.pdf` con las diapositivas utilizados por el grupo para dar la exposición presencial del trabajo.
-  Por comodidad del lector, a continuación se deja una copia de las secciones de Enunciado y Experimentación la cual resumen en gran parte los objetivos del trabajo práctico. Para leer sobre la problemática en la que fueron utilizadas las técnicas leer el mencionado ya `enunciado.pdf`:
+
+Por comodidad del lector, a continuación se deja una copia de las secciones de Enunciado y Experimentación la cual resumen en gran parte los objetivos del trabajo práctico. Para leer sobre la problemática en la que fueron utilizadas las técnicas leer el mencionado ya `enunciado.pdf`:
 
 
 # Enunciado
