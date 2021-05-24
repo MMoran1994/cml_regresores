@@ -1,14 +1,6 @@
 # Trabajo práctico: Cuadrados Mínimos Lineales
-El archivo `enunciado.pdf` contiene todo lo que fue requerido para la realización del trabajo. 
-- La carpeta `src` contiene el código C++ utilizado además de la vinculación con el módulo `pybind`. 
-- En `notebooks` se encuentran las notebooks de Jupyter usadas para procesar los datos y realizar los experimentos.
-- En `results` se encuentran guardados los datos ya procesados para realizar su estudio.
-- En `filtros` y `tools` los comandos del Shell de Linux utilizados para filtrar los archivos .csv de manera casi instantánea.
-- El módulo `eigen` contiene lo necesario para la representación y operaciones de matrices.
-- Se incluyen además el informe en `informe.pdf` pedido por el enunciado en el que se exhiben los hallazgos más relevantes dados por la experimentación y `Presentacion.pdf` con las diapositivas utilizados por el grupo para dar la exposición presencial del trabajo.
-
+El archivo `enunciado.pdf` contiene todo lo que fue requerido para la realización del trabajo.
 Por comodidad del lector, a continuación se deja una copia de las secciones de Enunciado y Experimentación la cual resumen en gran parte los objetivos del trabajo práctico. Para leer sobre la problemática en la que fueron utilizadas las técnicas leer el mencionado ya `enunciado.pdf`:
-
 
 # Enunciado
 
@@ -80,3 +72,10 @@ etc.?
 ¿El tipo o antiguedad en los aviones es importante? ¿Qué otras características
 externas podemos analizar para predecir un impacto en el OTP?
 ```
+## Contenidos
+- La carpeta `src` contiene el código C++ utilizado además de la vinculación con el módulo `pybind`. 
+- En `notebooks` se encuentran las notebooks de Jupyter usadas para procesar los datos y realizar los experimentos.
+- En `results` se encuentran guardados los datos ya procesados para realizar su estudio.
+- En `filtros` y `tools` los comandos del Shell de Linux utilizados para filtrar los archivos .csv de manera casi instantánea.
+- El módulo `eigen` contiene lo necesario para la representación y operaciones de matrices.
+- Se incluyen además el informe en `informe.pdf` pedido por el enunciado en el que se exhiben los hallazgos más relevantes dados por la experimentación y `Presentacion.pdf` con las diapositivas utilizados por el grupo para dar la exposición presencial del trabajo.
